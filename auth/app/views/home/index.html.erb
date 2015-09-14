@@ -1,0 +1,11 @@
+<div id="user-widget">
+
+	<% if current_user %>
+		Welcome <strong><%= current_user.name %></strong>
+		<%= image_tag(current_user.normalimage) %>
+		<%= link_to "Sign Out", signout_path %>
+	<% else  %>
+		<%= link_to "Sign In with Facebook", "auth/facebook", id: "sign-in" %>
+
+	<% end %>
+</div>
