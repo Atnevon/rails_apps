@@ -1,0 +1,54 @@
+---
+image: ../assets/images/content/icon-student-innovator.png
+award: Student Innovator
+description: The individual student that has created new and innovative technology or has demonstrated the innovative use of existing technology to drive value.
+finalists:
+  - name: Michael Kersting
+    website:
+    company:
+    effort:
+    summary:
+      - Diabetics often have to make important decisions regarding caloric intake.
+        Michael Kersting created Piabetes as a software solution designed to be used by diabetics to 
+        access data they might find useful, such as carbohydrates and dietary fiber information when 
+        internet access is limited or slow. Piabetes works by using a man in the middle, a Raspberry Pi, 
+        that has an internet connection. The user sends a SMS requesting food information over the 
+        phone to the Pi at their house, which has a good internet connection. The Pi then queries 
+        Wolfram Alpha for information and sends that data back to the user via SMS, effectively 
+        eliminating the need for 3G or other form of internet connection on the users end. Even with 
+        weak cell service, messages can be sent and received faster than if standard 3G had been used.
+
+  - name: Zack May
+    website:
+    company:
+    effort:
+    summary:
+      - "Zack's engineering brilliance continually amazes all that he encounters.
+        This brilliance has been disseminated to many students as it relates to Robotics and overall 
+        engineering. Zack keeps an engineering notebook in his possession at all times documenting, 
+        sketching, and calculating various self-initiated engineering projects. He is constantly 
+        brainstorming ways to create and redesign concepts and uses every chance to tinker in the 
+        workshop and any available break during and after school. A few of Zack's engineering
+        projects are:"
+      - Designing the FRC (First Robotics Competition) competition robots for POB. Responsible for the 
+        mechanical, electrical, and programming.
+      - Transforming an FRC competition robot to a t-shirt cannon for POB to use at sporting events 
+        and as a means to market the robotics team.
+      - Creating a lock for his bedroom door with an automatic self-locking mechanism.
+      - Creating a prototype of a mini plastic injection molding machine. Currently changing a storage 
+        unit behind his home to a workshop/living space for himself.
+      - His next engineering project is building a motorcycle. All designs are currently in his engineering 
+        notebook Zack has the ability to design, present, and produce highly usable and innovative 
+        products. He continuously pushes himself to be creative and progressive. He is always thinking 
+        is always of what could he do next.
+
+  - name: Crystal Starks
+    website:
+    company:
+    effort:
+    summary:
+      - Crystal is a student at Winthrop University and in May of 2014 she
+        founded the Charlotte chapter of Girl Develop It. A non-profit organization with the aim to 
+        increase diversity within the tech sector through trainings and workshops centered around web 
+        design and development.
+---

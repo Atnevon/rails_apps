@@ -1,0 +1,8 @@
+.nominee-container
+  h3 #{finalist.name}
+  .nominee-info
+    a href="http://#{finalist.website}" target="_blank" #{finalist.website}
+    span #{finalist.company}
+  .nominee-effort #{finalist.effort}
+  - finalist.summary.each do |paragraph|
+    p #{paragraph}

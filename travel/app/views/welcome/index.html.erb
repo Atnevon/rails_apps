@@ -1,0 +1,14 @@
+<h1>Welcome to my Travel Site</h1>
+<p>Traveling rules</p>
+
+<div id="map-canvas"></div>
+
+<h2>My Favorite city is <%= @homeland %></h2>
+
+<p>The Countries I want to visit are:</p>
+<ul>
+	<% @countries.each do |country| %>
+	<li><%= country %></li><br>
+	<% end %>
+
+</ul>

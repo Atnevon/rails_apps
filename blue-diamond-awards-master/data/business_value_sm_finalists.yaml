@@ -1,0 +1,80 @@
+---
+image: ../assets/images/content/icon-business-value-small.png
+award: Business Value – Small/Medium
+description: The IT solution that creates the greatest business value, and the company where it was implemented.
+finalists:
+  - name: Barnhardt Manufacturing
+    website: www.barnhardt.net
+    company: Barnhardt Manufacturing Company
+    effort: The Barnhardt Integrated Technology Solution
+    summary:
+      - "The Barnhardt Integrated Technology Solution consists of three pieces of
+        software: Work Order Generator (WOGEN), Production Scheduler, and Work Order Completion 
+        Mobile Application (WOCMA). WOGEN is process that runs on our application server that 
+        monitors sales order entry, creates manufacturing work orders, and then assigns then to the 
+        proper work centers with the correct due dates based on lead times. Production Scheduler is 
+        web application that provides a graphical representation of the manufacturing floor, allows the 
+        production supervisor/manager to assign/reassign work orders to different work centers, and 
+        provides displays the current status of work orders in production. WOCMA is the production 
+        data capture application used by production associates to capture manufacturing and quality 
+        assurance data on iPads as well as produce barcode labels. Assignments in Production 
+        Scheduler and WOGEN are displayed in WOCMA on the iPads. WOCMA is able to store 
+        transactions locally and produce product labels while disconnected from the central servers.
+         The impact of the system was far greater than expected. While we expected the collection of 
+        the data and metrics to have a significant impact on decision making, it also streamlined 
+        production processes and created excitement in manufacturing. The use of icons and the touch 
+        interface allowed for easier training with non-english speaking associates. User adoption of the 
+        devices was rapid with many more comfortable with using an iPad rather than a PC."
+
+  - name: ecomdash
+    website: www.ecomdash.com
+    company: ecomdash
+    effort: ecomdash
+    summary:
+      - The massive growth of ecommerce, estimated to approach $2 trillion in
+        2015, has persuaded retailers to escalate ecommerce efforts. And the low barrier to entry has 
+        attracted millions of small business people to try their hand at Living the American Dream by 
+        starting an ecommerce business.
+      - As merchants continue to add new sales channels, managing operations becomes increasingly 
+        complex. Until recently, integrating data and operational processes across multiple channels 
+        has only been affordable for the top one percent of retailers. Ecomdash has made it possible 
+        for small and mid-sized merchants to compete, scale and grow in today's omnichannel 
+        environment.
+      - Ecomdash is a software-as-a-service, cloud-based technology that enables omnichannel 
+        retailers to run their entire business from anywhere in a fraction of the time they spend today 
+        with better accuracy and from one central dashboard. At its core, ecomdash is a comprehensive 
+        inventory, sales order, purchasing, shipping, and product listing automation and management 
+        tool. It seamlessly integrates with marketplaces (e.g. Amazon), ecommerce website platforms 
+        (e.g. Magento, Bigcommerce), shipping companies (e.g. Stamps.com), warehouses, fulfillment 
+        centers, and suppliers. Unlike competitor Channel Advisor who serves large retailers as a 
+        marketing-driven hub to connect-the-dots with 3rd party niche providers for inventory, order 
+        management or shipping, ecomdash has built the entire software as an all-in-one.
+
+      - By streamlining the omnichannel supply chain and synchronizing data, 24% of ecomdash 
+        customers added new sales channels into their business repertoire. And user data over a 12 
+        month period shows that customers also increased sales revenue by an average of 23% each 
+        quarter after implementing ecomdash. As ecommerce and omnichannel retailing continue to 
+        evolve quickly, ecomdash plans to be the "best answer" for small and mid-sized merchant 
+        needs as new gaps in the marketplace are incrementally revealed.
+
+  - name: Thinkgate
+    website: www.thinkgate.com
+    company: Thinkgate
+    effort: Assessment Solution, Curriculum and Instruction tools and Teacher Effectiveness Solution
+    summary:
+      - Thinkgate provides web-based software to over 500 education agencies.
+        Thinkgate's suite of software solutions includes our Assessment Solution, Curriculum and 
+        Instruction tools and Teacher Effectiveness Solution. These solutions were designed to solve the 
+        unique challenges of educators, as well as adapt to the ever-changing requirements in the 
+        education space.
+
+      - Thinkgate's solutions were built on the foundation of the Thinkgate Technology Platform, which 
+        makes them completely customizable based on the client's needs and existing technology 
+        solutions. By linking all of an education agency's management systems, our platform provides a 
+        complete view of the education process.
+
+      - Not only are Thinkgate's software solutions highly flexible, they are also extremely reliable. In 
+        2014, our solutions maintained a 99% uptime and up to 107,000 concurrent users. Our 
+        solutions supported over 100,000 educators and 2.44 million students in the
+        2013-2014 school year.
+---

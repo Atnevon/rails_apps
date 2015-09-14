@@ -1,0 +1,22 @@
+---
+title: Finalist
+id: finalist
+---
+/ data found in data/community_outreach_finalists.yaml
+
+section#masthead
+  .inner
+    = partial "/layouts/shared/finalists_masthead"
+
+section#finalist-header
+  .inner
+    = partial("layouts/shared/finalists_category_header", :locals => {:header => data.community_outreach_finalists})
+
+section#finalists-category
+  .inner
+    - data.community_outreach_finalists.finalists.each do |finalist|
+      = partial("/layouts/shared/finalists_category", :locals => {:finalist => finalist})
+
+section#subscribe.callout-container
+  .inner
+    = partial "/layouts/shared/get_ticket"

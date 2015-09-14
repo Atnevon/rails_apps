@@ -1,0 +1,87 @@
+---
+image: ../assets/images/content/icon-business-non-profit.png
+award: Business Value – Non-Profit
+description: The IT solution that creates the greatest business value, and the non-profit where it was implemented.
+finalists:
+  - name: Apparo
+    website: www.apparo.org
+    company: Apparo
+    effort: Simplicity
+    summary:
+      - Apparo created a program 4 years ago to break the cycle of technology
+        break/fix for area small nonprofits (less than 10 employees). Through that program funds were 
+        raised to provide participating nonprofits with new laptops for employees, a networkable 
+        printer, a NAS device and cloud-based infrastructure. This was the beginning of a Shared 
+        Services model, named Simplicity, designed to help nonprofits transform their mission delivery 
+        via mobile technology and processes.
+      - The initial 3 years of the program were a learning curve for all involved, including the 
+        technology being significantly changed by Microsoft to settle this past year in the Microsoft 
+        Office 365 platform. This past year, Simplicity has truly hit its stride, serving 13 agencies - 3 of 
+        whom are new in the past year. There is a subsidy for Managed Services; there is a 
+        collaborative meeting twice a year; there is orientation for the Microsoft Office 365 as well as 
+        implementation of the platform for new members; and there is 4 hours of onsite training and 
+        support from Apparo team members over the course of the year.
+      - We estimate that the three years of the program cost more than $400,000 and delivered more 
+        than 500 hours of technology guidance and training, $102,000 in hardware, and true 
+        transformation for the way these 13 agencies deliver their missions in our community. This past 
+        year alone, has delivered an additional 100 hours of consulting support and $25,500 in direct 
+        Managed Care subsidies to these 13 agencies. As one has said, "we would not have been able 
+        to meet the rising demand for our services during the economic downturn without the 
+        flexibility, training and strategic support or Apparo's Simplicity program."
+      - Apparo is hoping that the winning of this award will highlight the impact potential of this 
+        program to bring new players, both nonprofit beneficiaries and corporate sponsors, to the table 
+        of a shared services model for technology support of smaller nonprofits in the region.
+
+  - name: City of Charlotte
+    website: Charmeck.org
+    company: City of Charlotte
+    effort: 
+    summary:
+      - As the City of Charlotte grows and experiences land use changes, leaders
+        recognized the need for accurate address information to deliver services. Until the 
+        implementation of a MDM solution for its address domain, the City lacked a centralized 
+        repository for managing physical and mailing address information. While Mecklenburg County 
+        functions as the physical address authority for both the City and County, the timing of address 
+        data availability and level of address granularity created challenges for departments to provide 
+        services. This deficiency led to duplicate or erroneous address records that created additional 
+        challenges with service delivery.
+      - Inaccurate address information was able to creep into databases whenever a name was 
+        misspelled or a duplicate address was entered, to cite two common examples. To mitigate this 
+        problem, the City embarked on an Address Management Program that included a business 
+        process engineering study and the technical implementation of a master data management 
+        (MDM) solution. The MDM approach was identified to focus on automated data quality 
+        capabilities to cleanse address/location data & to provide a central repository. We needed a 
+        master set of address records that could be used for location & mailing purposes. We also 
+        wanted to obtain a complete understanding of all address processes, from the time that an 
+        address is created throughout the history of its use.
+      - The City purchased iWay Software to automate data profiling, cleansing, matching, merging, 
+        enrichment, remediation, & monitoring activities. It enables the City to carefully check its data 
+        records, identify duplicates, standardize discrepancies, remediate exceptions &create a master 
+        database of "golden address records" with associated x & y coordinates (for geo-coding), USPS 
+        address labels, tax data & tax fee data. The result is a consistent set of master records that can 
+        feed multiple information systems, improve accuracy & give users a more complete view of 
+        address data.
+
+  - name: Charlotte Mecklenburg Schools
+    website: CMSLearns.org
+    company: Charlotte-Mecklenburg Schools
+    effort: Digital Learning Transformation
+    summary:
+      - Advancing 21st Century Learning, Digital Learning Transformation Goal
+        One of the Charlotte-Mecklenburg Schools' Strategic Plan 2018 is to, "Maximize academic 
+        achievement in a personalized 21st-century learning environment for every child to graduate 
+        college-and career-ready." The vision is to transform 165 schools serving over 140,000 students 
+        into places of digital learning and teaching, where students have a personalized education 
+        experience based on their interests, career goals and skills. We know that using a blended 
+        model of teaching with technology tools, teachers can vastly increase the level of student 
+        engagement. However, in 2012, CMS had no schools with infrastructure to support 
+        personalized learning. Under Dr. Truesdale's leadership, a systematic plan for Digital Learning 
+        Conversion has begun.
+      - The goal is to jump start the transformation of 165 schools by a) providing technology-enabled 
+        classrooms to access high quality learning experiences, b) developing a personalized plan of 
+        learning for each child, c) supporting children so they move through school with peers, d) 
+        imbedding professional learning for staff so they can lead this learning transformation and e) 
+        varying learning time by extending the school day and augmenting summer learning, actually or 
+        virtually. Tracking key measures to guarantee targeted outcomes is also an essential 
+        foundation.
+---

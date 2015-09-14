@@ -1,0 +1,22 @@
+---
+title: Finalist
+id: finalist
+---
+/ data found in data/it_entrepreneur_finalists.yaml
+
+section#masthead
+  .inner
+    = partial "/layouts/shared/finalists_masthead"
+
+section#finalist-header
+  .inner
+    = partial("layouts/shared/finalists_category_header", :locals => {:header => data.it_entrepreneur_finalists})
+
+section#finalists-category
+  .inner
+    - data.it_entrepreneur_finalists.finalists.each do |finalist|
+      = partial("/layouts/shared/finalists_category", :locals => {:finalist => finalist})
+
+section#subscribe.callout-container
+  .inner
+    = partial "/layouts/shared/get_ticket"

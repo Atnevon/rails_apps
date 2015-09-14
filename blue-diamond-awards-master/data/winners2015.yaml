@@ -1,0 +1,59 @@
+---
+- category: Human Capital
+  image: ../assets/images/content/icon-human-capital-winner.png
+  name: Logical Advantage
+  website: www.logicaladvantage.com
+  notable_mentions:
+    - Queen Associates
+    - Tech Talent South       
+- category: Student Innovator
+  image: ../assets/images/content/icon-student-innovator-winner.png
+  name: Michael Kersting, Young Engineers of Today
+  website: www.piabetes.weebly.com
+  notable_mentions:
+    - Crystal Starks, Girl Develop IT
+    - Zack May, Charlotte Mecklenburg Schools
+- category: IT Entrepreneur
+  image: ../assets/images/content/icon-it-entrepreneur-winner.png
+  name: David Jones, Peak 10
+  website: www.peak10.com/about-peak-10/leadership
+  notable_mentions:
+    - Brian Kelly, Cloud Genera
+    - Eric Waynick, Thinkgate
+- category: Business Value – Small/Medium
+  image: ../assets/images/content/icon-business-value-small-winner.png
+  name: ecomdash
+  website: www.ecomdash.com
+  notable_mentions:
+    - Barnhardt Manufacturing
+    - Thinkgate       
+- category: Community Outreach
+  image: ../assets/images/content/icon-community-outreach-winner.png
+  name: Bosch Rexroth
+  name2: Women Executives - WINGS program
+  website: www.boschrexroth.com
+  website2: www.wecharlotte.org/about-wings-wecs
+  notable_mentions:
+    - Charlotte Region STARS Computing Corps   
+- category: Business Value – Corporate
+  image: ../assets/images/content/icon-business-value-corporate-winner.png
+  name: Rubbermaid Healthcare
+  website: www.rubbermaidhealthcare.com
+  notable_mentions:
+    - Bank of America
+    - LPL Financial        
+- category: Cool Innovator
+  image: ../assets/images/content/icon-cool-innovator-winner.png
+  name: ecomdash
+  website: www.ecomdash.com
+  notable_mentions:
+    - Hours Tracking, Tapity
+    - SmartCharge Bulb, TVL International
+- category: Business Value – Non-Profit
+  image: ../assets/images/content/icon-business-non-profit-winner.png
+  name: Charlotte Mecklenburg Schools
+  website: www.cms.k12.nc.us
+  notable_mentions:
+    - Apparo
+    - City of Charlotte
+---

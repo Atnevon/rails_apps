@@ -1,0 +1,66 @@
+---
+image: ../assets/images/content/icon-business-value-corporate.png
+award: Business Value – Corporate
+description: The IT solution that creates the greatest business value, and the corporation where it was implemented.
+finalists:
+    - name: Bank of America
+      website: www.bankofamerica.com
+      company:  Bank of America
+      effort: Sales Fulfillment Transformation
+      summary: 
+        - Bank of America automated their online account opening process (processing requests for 
+          products submitted through online applications for various types of customers and deposit 
+          accounts). The project was named the Sales Fulfillment Transformation (SFT) project. The 
+          Bank used RedHat JBPM 5 to dramatically improve customer satisfaction (product fulfillment 
+          reduced from 16 hours to 26 seconds) and efficiency (standard platform that is easily 
+          maintained and supported). The new platform resulted in eliminating human error in 
+          account creation while CSR workload and desktop procedures were greatly reduced and 
+          simplified. Finally, the new platform mitigated potential regulatory compliance issues 
+          that occur with manual intervention.
+    - name: LPL 
+      website:  www.lplfinancial.lpl.com
+      company: LPL 
+      effort: Enhanced Trading and Rebalancing
+      summary: 
+        - LPL's new cloud-based trading platform allows advisors to save
+          valuable time when making portfolio changes. Advisors can perform a range of trading and 
+          rebalancing activities for any number of securities, client portfolios and accounts. The 
+          Enhanced Trading platform features block trading capabilities that calculate average prices, 
+          allocations and trailing stop orders to help protect market gains while managing downside 
+          risk. This technology offers advisors significant time savings, allowing them to react to 
+          market conditions faster and focus on what really matters-their clients. LPL Financial 
+          Managing Director and Chief Information Officer Victor Fetter noted, Introducing the 
+          Enhanced Trading and Rebalancing platform has been one of LPL Financials top priorities, 
+          and is representative of the strides we have made in advancing the company's overall 
+          technology strategy. We are directly addressing what our advisors have told us they need 
+          and want.
+    - name:  Rubbermaid Healthcare
+      website: www.rubbermaidhealthcare.com
+      company: Rubbermaid 
+      effort: CareLink Mobile Nurse Station
+      summary: 
+        - As the leader in “point-of-care” workstations with over 100,000 units 
+          deployed over 10 years, Rubbermaid Healthcare had to design its 4th generation mobile 
+          nurse station cart. Carts are used in hospitals as nurses’ workstations when documenting 
+          electronic medical records, transporting supplies and medications, and for telemedicine 
+          solutions. They must accommodate a wide range of computers, displays, and peripheral 
+          devices such as scanners, printers, and vital signs monitoring. These workstations are used 
+          by nursing and other clinicians in patient care throughout most acute care units, including 
+          general medical/surgical, critical care, surgery, and ER. These carts are one of the most 
+          heavily used (24/7) and have “more miles” on them than any other clinical equipment in a
+          hospital.
+        - Prior generations of workstations, and competitors’ carts, utilized “dumb” electronics-based
+          technology with limited features, plastic membrane buttons/keypads and possibly a small 
+          LED display. An analogy would be the difference between today’s upgradeable smart 
+          phones versus old cell phones that only had the features that came pre-installed. The carts 
+          were inflexible lacking ability to add features, make changes, and were reliant on client 
+          software installed on the hospital’s computer in the cart to supply any “smart” capabilities, 
+          such as battery monitoring or PIN codes. Where offered, remote management required 
+          installing server software. Electronics-based and client-server software architectures 
+          became unwieldy to install and maintain, and were too inflexible.
+        - To respond to these challenges, Rubbermaid Healthcare developed the CareLink Mobile
+          Nurse Station, the first smart connected nursing cart in the market. CareLink connects with 
+          N-Sight, a cloud-based system to remotely monitor and manage the fleet of carts. 
+          Rubbermaid Healthcare applied for a patent for the overall design, which is an early, large 
+          scale, successful example of an “Internet of Things” solution in healthcare.
+---

@@ -1,0 +1,19 @@
+/ data for this file found in /data/winners2015.yaml
+section#winner-categories
+  .inner
+    img.icon.diamond-icon src="../assets/images/layout/blue-diamond.png" alt="Blue Diamond"
+    h2 Congratulations!
+    h3 To all our winners
+ 
+    ul.nomination-descriptions.winner-descriptions
+      - data.winners2015.each do |winner|
+        li
+          h4 #{winner.category}
+          h5 #{winner.name}
+          a href="http://#{winner.website}" target="_blank" #{winner.website}
+          h5 #{winner.name2}
+          a href="http://#{winner.website2}" target="_blank" #{winner.website2}
+          h6 Notable Mentions
+          - winner.notable_mentions.each do |mention|
+            p #{mention}
+          img.icon src="#{winner.image}"

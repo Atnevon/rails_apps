@@ -1,0 +1,26 @@
+// ----------------------------------------------------------------
+// Headings
+// ----------------------------------------------------------------
+// Addresses font sizes and margins set differently in IE6/7
+// Addresses font sizes within 'section' and 'article' in FF4+, Chrome, S5
+// ----------------------------------------------------------------
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  color: $heading-color;
+  font-family: $heading-font-family;
+  text-transform: uppercase;
+}
+h1, .h1, %h1 {
+  font-size: $primary-heading-font-size;
+
+}
+
+h2, .h2, %h2 {
+  font-size: $secondary-heading-font-size;
+  margin: 0 0 $baseline*2;
+}
+
+h3, .h3, %h3 {
+  font-size: $tertiary-heading-font-size;
+  margin: 0 0 $baseline;
+}

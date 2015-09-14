@@ -1,0 +1,720 @@
+//---------------------------------------------------
+// Setup
+//---------------------------------------------------
+@import "config";
+
+//---------------------------------------------------
+// helpers
+//---------------------------------------------------
+@import "helpers/mixins";
+@import "helpers/functions";
+@import "helpers/utilities";
+
+//---------------------------------------------------
+// Base
+//---------------------------------------------------
+@import "base/root";
+@import "base/grid";
+@import "base/fonts";
+@import "base/headings";
+@import "base/code";
+@import "base/emphasis";
+@import "base/html5";
+@import "base/images";
+@import "base/links";
+@import "base/lists";
+@import "base/misc";
+@import "base/paragraphs";
+@import "base/quotes";
+@import "base/tables";
+@import "base/oursponsors";
+
+//---------------------------------------------------
+// Inner container
+//---------------------------------------------------
+.inner {
+  margin: 0 auto;
+  padding: 0 5%;
+  max-width: 960px;
+}
+//---------------------------------------------------
+// Section
+//---------------------------------------------------
+section {
+  padding: $baseline*6 0;
+  h2 {
+    text-align: center;
+    @include breakpoint(medium) {
+      font-size: 36px;
+      margin-bottom: $baseline*2;
+    }
+    @include breakpoint(large) {
+      font-size: 48px;
+      // margin-bottom: $baseline*2;
+    }
+  }
+  h3 {
+    color: $gray;
+    @include breakpoint(medium) {
+      font-size: 24px;
+    }
+  }
+}
+
+//---------------------------------------------------
+// Logo
+//---------------------------------------------------
+.logo {
+  background-color: #fff;
+  font-size: 18px;
+  margin: 0 0 $baseline*4 $baseline*1.5;
+  padding: $baseline*4 $baseline*2;
+  position: relative;
+  max-width: 250px;
+  width: 70%;
+  img {
+    display: block;
+    width: 100%;
+  }
+  .itology {
+    margin: 0 auto $baseline*2;
+    width: 80%;
+    @include breakpoint(medium) {
+      margin-bottom: $baseline*3;
+    }
+  }
+  &:before,
+  &:after {
+    background-color: $medium-blue;
+    content: "";
+      position: absolute;
+        top: 0;
+        bottom: $sub-baseline*2;
+    width: $baseline*1.5;
+  }
+  &:before {
+    left: -$baseline*1.5;
+  }
+  &:after {
+    right: -$baseline*1.5;
+  }
+  .ribbon {
+    background: transparent url(image_path('layout/ribbon-bottom-white.png')) top left no-repeat;
+    background-size: 100%;
+    height: 30px;
+    position: absolute;
+      left: 0;
+      bottom: -30px;
+    width: 100%;
+  }
+}
+
+//---------------------------------------------------
+// Masthead
+//---------------------------------------------------
+#masthead {
+  background: $dark-blue url(image_path('layout/charlotte-skyline.jpg')) 0 -20px no-repeat;
+  background-size: 100%;
+  overflow: hidden;
+  padding-top: 0;
+  position: relative;
+  @include breakpoint(medium) {
+    background-position: 0 -40px;
+  }
+  @include breakpoint(large) {
+    background-position: 0 -80px;
+  }
+  &:before,
+  &:after {
+    content: "";
+    width: 100%;
+    position: absolute;
+      left: 0;
+      right: 0;
+  }
+  &:after {
+    @include skewY(20deg);
+    background-color: $dark-blue;
+    height: 1000px;
+    top: 100px;
+    @include breakpoint(large) {
+      top: 220px;
+    }
+  }
+  &:before {
+    @include opacity(.3);
+    @include skewY(-30deg);
+    background-color: $blue;
+    height: 800px;
+    top: -683px;
+  }
+  .inner {
+    position: relative;
+    z-index: 10;
+  }
+  p {
+    @extend %h3;
+    color: #fff;
+    &:last-child {
+      margin-bottom: 0;
+      padding-bottom: 0;
+    }
+    @include breakpoint(large) {
+      font-size: 24px;
+      width: 80%;
+    }
+  }
+  a {
+    color: white;
+  }
+  h2 {
+    color: #fff;
+    margin-bottom: 10px;
+    text-align: left;
+    // padding: 0;
+  }
+}
+
+//---
+// Subscribe
+//----
+
+#subscribe {
+  form {
+    @include clear;
+    padding: $baseline 0;
+    h2 {
+      margin-bottom: $baseline;
+      @include breakpoint(medium) {
+        text-align: left;
+      }
+    }
+    input.email {
+      width: 100%;
+      @include breakpoint(medium) {
+        float: left;
+        width: 65%;
+      }
+    }
+    input.button-primary {
+      width: 100%;
+      @include breakpoint(medium) {
+        float: right;
+        width: 30%;
+        padding: 0px;
+      }
+    }
+    p {
+      clear: both;
+    }
+		a {
+			color: $yellow;
+		}
+
+  }
+}
+
+//---------------------------------------------------
+// Get Ticket
+//---------------------------------------------------
+#get-ticket {
+  a.button-primary {
+    margin-left: 0px;
+    margin-top: 30px;
+    width: 203px;
+  }
+}
+
+
+//---------------------------------------------------
+// Forms
+//---------------------------------------------------
+input, textarea {
+  @include border-radius(4px);
+  @extend %h3;
+  border: 1px solid $blue;
+  color: $body-color;
+  height: $field-height;
+  line-height: $field-line-height;
+  margin-bottom: $baseline;
+  padding: $field-padding;
+}
+textarea {
+  height: auto;
+}
+
+.field {
+  @include clear;
+  margin-bottom: $baseline;
+  label {
+    display: block;
+  }
+  input, textarea {
+    width: 100%;
+  }
+}
+
+
+.button-primary {
+  @include border-radius(4px);
+  @extend %h3;
+  background-color: $yellow;
+  border: 0;
+  color: #fff;
+  cursor: pointer;
+  display: block;
+  height: $field-height;
+  line-height: $field-height;
+  margin: 0 0 $baseline;
+  // padding: 0 $field-padding;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 100%;
+  @include breakpoint(medium) {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    // padding: 0 $field-height;
+    width: 300px;
+  }
+}
+
+//---------------------------------------------------
+// Nomination Categories List
+//---------------------------------------------------
+.nomination-descriptions {
+  @include clear;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  @include breakpoint(medium) {
+    margin-top: 100px;
+  }
+  li {
+    @include clear;
+    padding-bottom: 50px;
+    position: relative;
+    @include breakpoint(large) {
+      min-height: 250px;
+      padding-bottom: 0;
+      &:nth-child(2) {
+        margin-top: 150px;
+      }
+    }
+    &:nth-child(odd) {
+      padding-right: 130px;
+      @include breakpoint(medium) {
+        padding-right: 180px;
+      }
+      @include breakpoint(large) {
+        float: left;
+        width: 50%;
+      }
+      img {
+        right: 0;
+      }
+    }
+    &:nth-child(even) {
+      padding-left: 130px;
+      @include breakpoint(medium) {
+        padding-left: 180px;
+      }
+      @include breakpoint(large) {
+        float: right;
+        width: 50%;
+      }
+      img {
+        left: 0;
+      }
+    }
+    &:last-child {
+      padding-bottom: 0;
+    }
+    @include breakpoint(medium) {
+      margin-bottom: 60px;
+    }
+  }
+  img {
+    position: absolute;
+      top: 0;
+    width: 100px;
+    @include breakpoint(medium) {
+      top: -40px;
+      width: 150px;
+    }
+  }
+  h3 {
+    font-size: 24px;
+    line-height: 1.3em;
+  }
+  p {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+//---------------------------------------------------
+// Finalists
+//---------------------------------------------------
+#finalist-header {
+  padding-bottom: 0px;
+}
+
+#finalists-category {
+  h3 {
+    margin-bottom: 0px;
+    color: $heading-color;
+    font-weight: normal;
+    display: inline-block;
+    @include breakpoint(medium) {
+      margin-bottom: 12px;
+    }
+  }
+
+  a {
+    font-size: 14px;
+    text-decoration: none;
+    color: $heading-color;
+  }
+
+  span {
+    display: block;
+    font-size: 14px;
+    color: #9F9F9F;
+    @include breakpoint(medium) {
+      display: inline-block;
+      margin-left: 50px;
+    }
+  }
+
+  p {
+    margin-top: 15px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    @include breakpoint(medium) {
+      text-align: justify
+    }
+  }
+
+  .nominee-container {
+    margin-top: 30px;
+  }
+
+  .nominee-effort {
+    text-align: justify;
+    font-weight: bold;
+  }
+
+  .nominee-info {
+    margin-bottom: 12px;
+    @include breakpoint(medium) {
+      float: right;
+    }
+  }
+
+  padding-top: 20px;
+}
+
+.finalist-category-header {
+  h2 {
+    text-align: left;
+  }
+  p {
+    padding-bottom: 30px;
+  }
+
+  img {
+    width: 120px;
+    @include breakpoint(medium) {
+      float: right;
+      width: 150px;
+      margin-left: 20px;
+    }
+  }
+
+  min-height: 260px;
+  border-bottom: 1px solid #DEDEDE
+}
+
+//---------------------------------------------------
+// Winner Categories List
+//---------------------------------------------------
+
+#winner-categories {
+  h2, h3, h4, h5, h6 {
+    line-height: 1.2em;
+  }
+
+  h2 {
+    margin: 0;
+  }
+
+  h3 {
+    color: $heading-color;
+    text-align: center;
+    margin-bottom: 24px;
+  }
+  
+  h4 {
+    font-size: 24px;
+    margin-bottom: 5px;
+    color: #505050;
+  }
+
+  h5 {
+    font-size: 24px;
+    margin: 0px;
+  }
+
+  h6 {
+    font-size: 14px;
+    color: #505050;
+    margin-top: 15px;
+    margin-bottom: 6px;
+  }
+
+  p, a {
+    font-size: 14px;
+    color: $heading-color;
+    text-decoration: none;
+  }
+
+  padding-top: 36px;
+  padding-bottom: 30px;
+
+  .diamond-icon {
+    display: block;
+    width: 50px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+     @include breakpoint(medium) {
+      width: 80px;
+    }
+  }
+}
+
+//---------------------------------------------------
+// Callout Container
+//---------------------------------------------------
+.callout-container {
+  @include clear;
+  border-bottom: 1px solid #98D7E5;
+  background: $dark-blue url(image_path('layout/section-corner-bg.png')) top right no-repeat;
+  background-size: 80%;
+  color: #fff;
+  padding: $baseline*6 0;
+  @include breakpoint(medium) {
+    background-size: 60%;
+  }
+  @include breakpoint(large) {
+    background-size: 500px;
+  }
+  h2 {
+    color: #fff;
+    @include breakpoint(medium) {
+      text-align: left;
+    }
+  }
+}
+
+//---------------------------------------------------
+// Timelines
+//---------------------------------------------------
+.timeline {
+  @include clear;
+  list-style: none;
+  margin: $baseline*2 0 0 $baseline*2;
+  padding: 0;
+  position: relative;
+  &:before {
+    background-color: $yellow;
+    content: "";
+    position: absolute;
+      top: 0;
+      left: 0;
+      bottom: $baseline*2;
+    width: $sub-baseline;
+  }
+  li {
+    margin-bottom: $baseline*2;
+    padding-left: $baseline*3;
+    position: relative;
+    &:last-child {
+      margin-bottom: 0;
+    }
+    span {
+      display: block;
+      font-size: .8em;
+      font-style: italic;
+    }
+    &:after {
+      @include rotate(45deg);
+      content: "";
+      background-color: $yellow;
+      // border-left: 3px solid $dark-blue;
+      // border-top: 3px solid $dark-blue;
+      display: block;
+      height: $baseline*2;
+      position: absolute;
+        top: 0;
+        left: -$baseline + 2;
+      width: $baseline*2;
+    }
+  }
+  @include breakpoint(large) {
+    &:before {
+      height: $sub-baseline;
+      width: 100%;
+    }
+    li {
+      float: left;
+      margin-bottom: 0;
+      padding: $baseline*2 0 0 0;
+      width: 20%;
+      &:after {
+        top: -10px;
+      }
+    }
+  }
+}
+//---------------------------------------------------
+// Sponsors
+//---------------------------------------------------
+#sponsorships {
+  .button-primary {
+    margin: $baseline*2 auto;
+  }
+}
+.sponsors-list {
+  @include clear;
+  list-style: none;
+  margin: $baseline*4 0 0;
+  padding: 0;
+  a {
+    text-decoration: none;
+    text-align: center;
+  }
+  li {
+    margin-bottom: $baseline;
+    @include span(6 of 12);
+    &:nth-child(even) {
+      @include omega;
+    }
+  }
+}
+
+// sponsorship tiers list
+.tier-1,
+.tier-2,
+.tier-3,
+.tier-4 {
+  @include clear;
+  list-style: none;
+  margin: 0 0 $baseline*4;
+  padding: 0;
+  text-align: center;
+  li {
+    @include span (6 of 12);
+    margin-bottom: $sub-baseline;
+    &:nth-child(even) {
+      @include omega;
+    }
+  }
+  a {
+    display: block;
+    text-decoration: none;
+  }
+  img {
+    width: 100%;
+  }
+  .sponsor-title {
+    color: $blue;
+    font-size: 13px;
+    margin: -$sub-baseline 0 $baseline;
+    &:hover {
+      color: $dark-blue;
+    }
+  }
+}
+
+@include breakpoint(small) {
+  .tier-2 li,
+  .tier-3 li{
+    @include span(4 of 12);
+    &:nth-child(even) {
+      @include span(4 of 12);
+    }
+    &:nth-child(3n) {
+      @include span(last 4 of 12);
+    }
+  }
+}
+
+@include breakpoint(medium) {
+  .tier-3 li{
+    @include span(3 of 12);
+    &:nth-child(even) {
+      @include span(3 of 12);
+    }
+    &:nth-child(3n) {
+      @include span(3 of 12);
+    }
+    &:nth-child(4n) {
+      @include span(last 3 of 12);
+    }
+  }
+}
+
+// Sponsorship tier descriptions
+.sponsorship-descriptions {
+  @include clear;
+  list-style: none;
+  margin: $baseline*2 0 0;
+  padding: 0;
+  h3 {
+    color: #3a86a9;
+  }
+  li {
+    font-size: 14px;
+    margin-bottom: $baseline*2;
+    @include breakpoint(large) {
+      @include  span(4 of 12);
+      padding-right: $baseline;
+      &:nth-child(3) {
+        @include span(last 4 of 12);
+        padding: 0 0 0 $baseline;
+      }
+    }
+  }
+
+}
+//---------------------------------------------------
+// Footer
+//---------------------------------------------------
+footer[role="contentinfo"] {
+  background-color: $dark-blue;
+  color: #fff;
+  padding: $baseline*6 0 (($baseline*6) + 40px);
+  position: relative;
+  font-size: 14px;
+  small {
+    font-size: inherit;
+  }
+  a {
+    color: $yellow;
+  }
+  p:last-child {
+    margin-bottom: 0;
+  }
+  &:after {
+    background: transparent url(image_path('layout/charlotte-skyline.jpg')) 0 60% no-repeat;
+    background-size: 100%;
+    content: "";
+    height: 50px;
+    position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+  }
+}
